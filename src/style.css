@@ -16,3 +16,7 @@ body {
   left: 0;
   z-index: -1;
 }
+ .github-link {
+      position: fixed;
+      top: 10px;
+      left: 10px;
