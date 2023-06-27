@@ -75,7 +75,7 @@ function animate(time) {
 
   analyser.getByteFrequencyData(audioData);
 
-  time *= 0.01;
+  time *= 0.0001;
 
   uniforms.iTime.value = time;
   uniforms.iResolution.value.set(canvas.width, canvas.height, 1);
